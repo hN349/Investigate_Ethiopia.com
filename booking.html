@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h2{background-color: lightgray; font-weight: lighter;margin-bottom: 8px;}
+        div.top{display: inline;float: right;  margin-right: 100px; }
+        section#sec1{background-image:url(https://tse1.mm.bing.net/th?id=OIP.1PWgnLAL5C2JBKiIh3yvxwHaFA&pid=Api&P=0&h=220) ;
+            padding: 20px; padding-bottom: 25px;}
+        button.botton{margin:0px;padding-right: 10px;border: white; color: palevioletred;}
+        input{border-radius: 12%; margin-left: 50px;}
+        /*div.search{margin-left: 50px;}*/
+        form{margin-top: 30px;float:left; width: 50%;}
+        img{margin-top:35px;margin-right: 0px; width: 50%;height: 550px;float: right;}
+        fieldset{background-color: darkslateblue; color: wheat;}
+        legend{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:orange;}
+        #submit{margin-left: 40px; color: blueviolet; padding-top: 10px; padding-bottom: 10px;}*/
+        /* css footer start*/
+        hr{border: solid darkblue;margin-bottom: -4px;}
+        section#sec2{background-color: darkblue;padding: 70px;display:grid; grid-template-columns: auto auto auto; border: solid darkgreen;}
+        a.footer{text-decoration: none; color:blanchedalmond;display: inline;}
+        a.footer1{color: blanchedalmond; text-decoration: none;}
+        button.footer{background-color: chocolate;color: blanchedalmond; 
+            padding-left:-10px;padding-right:-10px;padding-top:-10px;padding-bottom:-10px;}
+        footer{background-color: dimgray; font-family: Arial, Helvetica, sans-serif;}
+        i.fa-telegram, i.fa-tiktok , i.fa-square-instagram{font-size: 40px;}
+        i.fa-google, i.fa-phone{font-size: 20px;}
+        /* css footer end*/
+        @media only screen and (max-width:480px){
+            html,body{
+                width: 130%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+        }
+            @media only screen and (max-width:1080px) and (min-width:481px){
+            html,body{
+                width: 130%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>BOOKING FORM</h2>
+    <section id="sec1">
+        <div class="search"><input type="text" name="search" placeholder="Search"> </div>
+    <div class="top">
+        <a href="index.html" target="_blank"><button class="botton">Home</button></a>
+        <a href="about.html" target="_blank"><button class="botton">About Us</button></a>
+        <a href="package.html" target="_blank"><button class="botton">Tour Package</button></a>
+        <a href="contact.html"><button class="botton">Contact Us</button></a>
+        <a href="National park.html" target="_blank"><button class="botton">Nationa Park</button></a>
+    </div></section>
+    <form><fieldset>
+        <legend> Happy Journey</legend>
+        <br>Full name<br>
+        <input type="text" name="full_name" required><br><br>
+        Email<br>
+        <input type="email" name="email" required><br><br>
+        Phone<br>
+        <input type="text" name="phone" maxlength="10" required><br><br>
+        Number of traveler<br>
+        <input type="number" name="traveler"  max="10" required><br><br>
+        Estimated date of arrival<br>
+        <input type="date" name="day" required><br><br>
+        Additional information<br>
+        <textarea rows="6px" cols="20">Enter information</textarea><br><br>
+        <br><br>
+        <input id="submit" type="submit" value="BOOK NOW" >
+    </fieldset>
+        </form>
+        <img src="https://c8.alamy.com/comp/2F9G63R/mahe-seychelles-november-25-2017-ethiopian-boeing-737-800-airplane-at-seychelles-international-airport-sez-in-the-seychelles-boeing-is-an-amer-2F9G63R.jpg">
+    
+    <!--footer begining-->
+    &nbsp;&nbsp;&nbsp;<br><br><br><br>   
+  <hr>
+        <section id="sec2">
+            <div>
+            <a class="footer" href="about.html">About Us</a>
+            
+            <blockquote>
+             <ul>
+                 <li><a class="footer1" href="#Mission">Misssion</a></li>
+                 <li><a class="footer1" href="#Vision">Vision</a></li>
+                 <li><a class="footer1" href="#Objective">Objective</a></li>
+                 <li><a class="footer1" href="#Company value">Company value</a></li>
+             </ul>
+            </blockquote></div>
+            <div>
+            <a class="footer" href="contact.html">Contact Us</a><br><br><br>
+            <i class="fa-brands fa-google"></i>&nbsp;&nbsp;<a class="footer1" href="mailto:hawanursefa349@gmail.com">Gmail</a>
+            <br><br><i class="fa-solid fa-phone"></i> &nbsp;&nbsp;+25193090476 
+        </div>
+             <div>
+            <a class="footer" href="#">Follow Us</a><br><br><br>
+            <i class="fa-brands fa-telegram"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-tiktok "></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-square-instagram"></i></div>
+        </section>
+        <footer>&copy; 2024 Investigate Ethiopia, Incorporated</footer>
+        <!--footer end-->
+</body>
+</html>
